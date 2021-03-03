@@ -143,7 +143,6 @@ describe('Testing challenge 1', () => {
 
   });
 });
-
 describe('Testing challenge 2', () => {
   test('It should validate a PIN of exactly four digits', () => {
     expect(validatePin(1234)).toBeTruthy();
