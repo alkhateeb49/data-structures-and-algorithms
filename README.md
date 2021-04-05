@@ -47,3 +47,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ## Java
 [Java Code Challenge 1](challenges/ArrayReverse)
+[Java Code Challenge 2](challenges/ArrayShift)

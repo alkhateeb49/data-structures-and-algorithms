@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class ArrayReverse {
   public static void main(String[] args){
-    int[] RA = new int[]{1,2,3,4,5};
-    System.out.println(Arrays.toString(reverseArray(RA)));
+    // int[] RA = new int[]{1,2,3,4,5};
+    // System.out.println(Arrays.toString(reverseArray(RA)));
   }
-    public static int[] reverseArray(int[] arr){
+    public static int[] raeverseArray(int[] arr){
         if (arr.length <= 1) {
             return arr;
         } else {
