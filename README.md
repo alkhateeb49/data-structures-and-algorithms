@@ -46,6 +46,6 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 [JavaScript Code Challenge 13](https://github.com/alkhateeb49/data-structures-and-algorithms/blob/main/code-challenges/challenges-13.test.js)
 
 ## Java
-[Java Code Challenge 1](challenges/main/ArrayReverse)
+[Java Code Challenge 1](challenges/main/ArrayReverse.java)
 
-[Java Code Challenge 2](challenges/main/ArrayShift)
+[Java Code Challenge 2](challenges/main/ArrayShift.java)
