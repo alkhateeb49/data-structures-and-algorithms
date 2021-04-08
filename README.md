@@ -48,9 +48,12 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 ## Java
 [Java Code Challenge 1](challenges/main/ArrayReverse.java)
 
-[Java Code Challenge 2](challenges/main/ArrayShift.java)
+[Java Code Challenge 2](challenges/main/ArrayShift.java)<br/>
 [Java Code Challenge 2 test](challenges/test/ArrayShiftTest.java)
 
-[Java Code Challenge 3](challenges/main/BinarySearch.java)
+[Java Code Challenge 3](challenges/main/BinarySearch.java)<br/>
 [Java Code Challenge 3 test](challenges/test/BinarySearchTest.java)
+
+[Java Code Challenge 4](Data-Structures/linkedList/LinkedList.java)<br/>
+[Java Code Challenge 4 test](Data-Structures/linkedList/LinkedListTest.java)
 
