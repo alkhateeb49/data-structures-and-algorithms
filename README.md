@@ -57,3 +57,5 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 [Java Code Challenge 4](Data-Structures/linkedList/LinkedList.java)<br/>
 [Java Code Challenge 4 test](Data-Structures/linkedList/LinkedListTest.java)
 
+[Java Code Challenge 5](Data-Structures/linkedList/LinkedList.java)<br/>
+[Java Code Challenge 5 test](Data-Structures/linkedList/LinkedListTest.java)
