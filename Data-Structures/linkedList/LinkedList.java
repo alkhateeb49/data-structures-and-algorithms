@@ -1,4 +1,4 @@
-package com.example.linkedList;
+package LinkedList;
 
 public class LinkedList {
     Node head;
@@ -20,7 +20,7 @@ public class LinkedList {
     public boolean includes(int data){
         Node current = head;
         if(current == null){
-           return false;
+            return false;
         }
         while (current!=null){
             if (current.value==data){
@@ -65,13 +65,13 @@ public class LinkedList {
         Node currentNode = head;
         Node previous = head;
         if (includes(targetValue)){
-            if (head.data == targetValue){
+            if (head.value == targetValue){
                 newNode.next = head;
                 head = newNode;
                 return;
             }
             while (currentNode != null){
-                if (currentNode.data == targetValue){
+                if (currentNode.value == targetValue){
                     newNode.next = currentNode;
                     previous.next = newNode;
                     return;
@@ -86,24 +86,35 @@ public class LinkedList {
         Node newNode = new Node(newValue);
         Node currentNode = head;
         if (includes(targetValue)){
-            if (head == targetValue){
-                head.next = newNode;
-                return;
-            }
-            while (currentNode != null){
-                if (currentNode.data == targetValue){
-                    newNode.next = currentNode.next;
-                    currentNode.next = newNode;
-                    return;
+                while (currentNode != null) {
+                    if (currentNode.value == targetValue) {
+                        newNode.next = currentNode.next;
+                        currentNode.next = newNode;
+                        return;
+                    }
+                    currentNode = currentNode.next;
                 }
-                currentNode = currentNode.next;
-            }
         }
     }
 
+    // ---------------------------------------------
 
 
-
-
+    public String kthFromEnd(int k) {
+        Node current = head;
+        int length = 0;
+        while (current != null) {
+            current = current.next;
+            length++;
+        }
+        if (k < 0 || length < k) {
+            return "Exception";
+        }
+        current = head;
+        for (int i = 1; i < length - k; i++) {
+            current = current.next;
+        }
+        return ""+current.value;
+    }
 }
 
