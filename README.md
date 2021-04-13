@@ -62,3 +62,9 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 [Java Code Challenge 6](Data-Structures/linkedList/LinkedList.java)<br/>
 [Java Code Challenge 6 test](Data-Structures/linkedList/LinkedListTest.java)
+
+[Java Code Challenge 7](Data-Structures/linkedList/LinkedList.java)<br/>
+[Java Code Challenge 7 test](Data-Structures/linkedList/LinkedListTest.java)
+
+[Java Code Challenge 8](Data-Structures/linkedList/LinkedList.java)<br/>
+[Java Code Challenge 8 test](Data-Structures/linkedList/LinkedListTest.java)
