@@ -116,4 +116,29 @@ public class StackAndQueueTest {
         assertEquals(new NullPointerException(), value);
     }
 
+
+        //   -------------------------------------------------------------------------------------------------------------------------------------------
+
+        @Test
+        public void PseudoQueueTest1(){
+            PseudoQueue test=new PseudoQueue();
+            test.enqueue(3);
+            test.enqueue(2);
+            test.enqueue(7);
+            assertEquals("the output is",7 ,test.frontStack.peek());
+        }
+        @Test
+        public void PseudoQueueTest2(){
+            PseudoQueue test=new PseudoQueue();
+            test.enqueue(3);
+            test.enqueue(2);
+            test.enqueue(7);
+            assertEquals("the output is",7 ,test.dequeue());
+        }
+        @Test(expected = NullPointerException.class)
+        public void PseudoQueueEmptyTest(){
+            PseudoQueue test=new PseudoQueue();
+            assertEquals(new NullPointerException(), test.dequeue());
+        }
+
 }
