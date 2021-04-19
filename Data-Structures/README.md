@@ -94,3 +94,26 @@ For the dequeue() I treateds the two internal stacks akin to balancing cups, the
  ![images](../assets/PseudoQueue.png)
 
 ---
+
+# Challenge Summary
+<!-- Short summary or background information -->
+Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach. Implement the following methods: enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object. dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
+
+## Challenge Description
+<!-- Description of the challenge -->
+My approach was to use to create a superclass of animals that the dog and cat classes would extend to. Then create an animalshelter class that would hold all of the animals in two queues, one for dogs and one for cats. The enqueue method would add new animals to whichever queue they abide by. The dequeue method would go through starting from the front to check if the preferred animal matches and dequeue that animal. My method for adding a node to the queue(enqueue) has a Big O time/space complexity of O(1), however my dequeue method has a time of O(n) and space of O(1).    
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* enqueue()
+
+* dequeue()
+
+* [FIFO Animal Shelter](/utilities)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+ ![images](../assets/Animal.png)
+
+---
