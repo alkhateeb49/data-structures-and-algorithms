@@ -117,3 +117,25 @@ My approach was to use to create a superclass of animals that the dog and cat cl
  ![images](../assets/Animal.png)
 
 ---
+
+# Challenge Summary
+<!-- Short summary or background information -->
+function should take a string and should return a boolean representing whether or not the brackets in the string are balanced.
+
+## Challenge Description
+<!-- Description of the challenge -->
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
+Round Brackets : ()
+Square Brackets : []
+Curly Brackets : {}
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Used a stack to hold opening brackets and popped them off the stack when the corresponding closing bracket was found. If the closing brakcet did not match the top node in the stack, then the method would return false. If the stack is not empty in the end after iterating through the entire string input, it would also return false. This operates with a time and space complexity of O(n).
+
+## Solution
+<!-- Embedded whiteboard image -->
+ ![images](../assets/multibracket.png)
+
+---
