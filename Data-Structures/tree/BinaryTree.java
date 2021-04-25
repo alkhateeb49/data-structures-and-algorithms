@@ -103,4 +103,34 @@ public class BinaryTree{
         }
     }
 
+
+
+    //    ---------------------------------------------------------
+
+    
+    //      findMaximumValue
+    public int findMaximumValue(){
+        if(this.root== null){
+            throw new NullPointerException("Empty Tree");
+        }
+        return findMaximumValue(this.root, this.root.value);
+    }
+
+    public int findMaximumValue(Node node, int max){
+        if(node== null){
+            return max;
+        }else if(node.value >= max){
+            max = node.value;
+        }
+        int maxLeft = findMaximumValue(node.left, max);
+        int maxRight = findMaximumValue(node.right, max);
+        if(maxLeft> maxRight){
+            max = maxLeft;
+        }else{
+            max= maxRight;
+        }
+        return max;
+    }
+
+
 }
