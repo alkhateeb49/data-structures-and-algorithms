@@ -59,6 +59,33 @@ public class treeTest {
     }
 
 
+    //---------------------------------------------------------------------------------------
+    @Test
+    public void  findMaxOnTreeTest() {
+        BinaryTree tree=new BinaryTree();
+        tree.add(7);
+        tree.add(1);
+        tree.add(4);
+        tree.add(322);
+        tree.add(31);
+        tree.add(5);
+        assertEquals("The Max is : ",322,tree.findMaximumValue());
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void FindMaxValueInEmptyTree() {
+        BinaryTree tree = new BinaryTree();
+        assertEquals(new NullPointerException(), tree.findMaximumValue());
+    }
+
+    @Test
+    public void  findMaxOnOneValueTreeTest() {
+        BinaryTree tree=new BinaryTree();
+        tree.add(7);
+        assertEquals("The tree is Equal",7,tree.findMaximumValue());
+    }
+
+
 
 
 }
