@@ -86,6 +86,41 @@ public class treeTest {
     }
 
 
+    //---------------------------------------------------------------------------------------
+
+    @Test
+    public void  breadthFirstTest() {
+        BinaryTree tree=new BinaryTree();
+        tree.add(7);
+        tree.add(27);
+        tree.add(4);
+        tree.add(1);
+        tree.add(8);
+        List<Integer> test=new ArrayList<>();
+        test.add(7);
+        test.add(4);
+        test.add(27);
+        test.add(1);
+        test.add(8);
+        assertEquals("The tree is Equal",test,tree.breadthFirst(tree.root));
+    }
+
+
+    @Test(expected = NullPointerException.class)
+    public void breadthFirstInEmptyTree() {
+        BinaryTree tree = new BinaryTree();
+        assertEquals(new NullPointerException(), tree.breadthFirst(tree.root));
+    }
+
+    @Test
+    public void  breadthFirstOnOneValueTreeTest() {
+        BinaryTree tree=new BinaryTree();
+        tree.add(7);
+        List<Integer> test=new ArrayList<>();
+        test.add(7);
+        assertEquals("The tree is Equal",test,tree.breadthFirst(tree.root));
+    }
+
 
 
 }

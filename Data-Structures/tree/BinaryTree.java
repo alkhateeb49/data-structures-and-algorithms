@@ -133,4 +133,32 @@ public class BinaryTree{
     }
 
 
+        //    ---------------------------------------------------------
+
+
+        public List<Integer> breadthFirst(Node tree) {
+            List<Integer> newlist=new ArrayList<>();
+            Queue<Node> traversalQueue = new LinkedList<>();
+            if (tree== null) {
+                throw new NullPointerException("Empty");
+            }
+            else {
+                traversalQueue.add(tree);
+                newlist.add(tree.value);
+                while (!traversalQueue.isEmpty()) {
+                    Node currentNode = traversalQueue.poll();
+                    System.out.println(currentNode);
+                    if (currentNode.left != null) {
+                        traversalQueue.add(currentNode.left);
+                        newlist.add(currentNode.left.value);
+                    }
+                    if (currentNode.right != null) {
+                        traversalQueue.add(currentNode.right);
+                        newlist.add(currentNode.right.value);
+                    }
+                }
+            }
+            return newlist;
+        }
+
 }

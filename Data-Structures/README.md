@@ -199,3 +199,18 @@ I used a recursive approach to my methods to accomplish the feature tasks.
 -  ![images](../assets/findmax.png)
 
 ---
+
+# Code Challenge: Class 17
+## find-maximum-value
+## Challenge
+- Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach; print every visited node’s value.
+
+## Approach and Efficiency
+* I combined a helper queue with an iterative approach to traverse every node in the tree and produce a System.out at a given node so long as it isn't null.
+* Time: O(n)
+* Space: O(n)
+
+## Solution
+-  ![images](../assets/breadthFirst.png)
+
+---
