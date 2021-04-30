@@ -1,4 +1,4 @@
-# Challenge Summary
+# Challenge Summary Array Reverse
 <!-- Short summary or background information -->
 Return an array with elements in reversed order.
 
@@ -15,7 +15,7 @@ I used for loop and array to bring it
 ![image](/assets/ArrayReverse.png)
 
 ---
-# Challenge Summary
+# Challenge Summary Array Shift
 <!-- Short summary or background information -->
  return an array with the new value added at the middle index.
 
@@ -33,7 +33,7 @@ I used 2 for loops first one to put same half value, and the second one to put t
 
 ---
 
-# Challenge Summary
+# Challenge Summary Array Binary Search
 <!-- Short summary or background information -->
 return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
 
