@@ -55,12 +55,13 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |linked-list|[Documentation](Data-Structures/README.md#singly-linked-list)|[Code & Files](Data-Structures/linkedList)|
 |ll-insertions|[Documentation](Data-Structures/README.md#insertions)|[Code & Files](Data-Structures/linkedList)|
 |ll-kth-from-end|[Documentation](Data-Structures/README.md#kth-from-end)|[Code & Files](Data-Structures/linkedList)|
-|ll-zip|[Documentation](Data-Structures/README.md#kth-from-end)|[Code & Files](Data-Structures/linkedList)|
-|stack-and-queue|[Documentation]()|[Code & Files]()|
-|queue-with-stacks|[Documentation]()|[Code & Files]()|
-|fifo-animal-shelter|[Documentation]()|[Code & Files]()|
-|multi-bracket-validation|[Documentation]()|[Code & Files]()|
-|tree|[Documentation]()|[Code & Files]()|
-|find-maximum-binary-tree|[Documentation]()|[Code & Files]()|
-|breadth-first|[Documentation]()|[Code & Files]()|
-|fizzbuzz-tree|[Documentation]()|[Code & Files]()|
+|ll-zip|[Documentation](Data-Structures/README.md#zip)|[Code & Files](Data-Structures/linkedList)|
+
+|stack-and-queue|[Documentation](Data-Structures/README.md#stacks-and-queues)|[Code & Files](Data-Structures/stacksandqueues)|
+|queue-with-stacks|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/stacksandqueues)|
+|fifo-animal-shelter|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/utilities)|
+|multi-bracket-validation|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/utilities)|
+|tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
+|find-maximum-binary-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
+|breadth-first|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
+|fizzbuzz-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/StringTree)|
