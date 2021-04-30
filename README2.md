@@ -52,10 +52,10 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |array-reverse|[Documentation](challenges/README.md#challenge-summary-array-reverse)|[Code & Files](challenges/main/ArrayReverse.java)|
 |array-shift|[Documentation](challenges/README.md#challenge-summary-array-shift)|[Code & Files](challenges/main/ArrayShift.java)|
 |array-binary-search|[Documentation](challenges/README.md#challenge-summary-array-binary-search)|[Code & Files](challenges/main/BinarySearch.java)|
-|linked-list|[Documentation]()|[Code & Files]()|
-|ll-insertions|[Documentation]()|[Code & Files]()|
-|ll-kth-from-end|[Documentation]()|[Code & Files]()|
-|ll-zip|[Documentation]()|[Code & Files]()|
+|linked-list|[Documentation](Data-Structures/README.md#singly-linked-list)|[Code & Files](Data-Structures/linkedList)|
+|ll-insertions|[Documentation](Data-Structures/README.md#insertions)|[Code & Files](Data-Structures/linkedList)|
+|ll-kth-from-end|[Documentation](Data-Structures/README.md#kth-from-end)|[Code & Files](Data-Structures/linkedList)|
+|ll-zip|[Documentation](Data-Structures/README.md#kth-from-end)|[Code & Files](Data-Structures/linkedList)|
 |stack-and-queue|[Documentation]()|[Code & Files]()|
 |queue-with-stacks|[Documentation]()|[Code & Files]()|
 |fifo-animal-shelter|[Documentation]()|[Code & Files]()|

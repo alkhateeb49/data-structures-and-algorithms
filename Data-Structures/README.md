@@ -25,6 +25,66 @@ Define a method called toString (or __str__ in Python) which takes in no argumen
 ---
 ---
 
+# Insertions
+<!-- Short summary or background information -->
+In-place comparison-based sorting algorithm that sorts a list one item at a time. It is less efficient on large lists than other sorting algorithms such as quick sort, heap sort, and merge sort but more efficient than bubble sort and selection sort.
+
+## Challenge Description
+<!-- Description of the challenge -->
+Insertion sort iterates through the list. If it is the first element, it's already sorted and returns 1. On to the next element, it compares that element with all the elements in the sorted sub-list and swaps that value each time an item in the sub-list is greater than that element's value. This repeats until the entire list is sorted.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+InsertionSort(int[] arr) : Method for the Linked List class which takes a number.
+
+## Solution
+<!-- Embedded whiteboard image -->
+ ![images](../assets/ll-insertions.png)
+
+---
+
+# kth from end
+<!-- Short summary or background information -->
+A LinkedList class and Node class. The LinkedList keeps track of what node is its head value, and each node contains its own value and a pointer to the node after it in the list.
+
+## Challenge Description
+<!-- Description of the challenge -->
+Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node. Within your LinkedList class, include a head property. Upon instantiation, an empty Linked List should be created. This object should be aware of a default empty value assigned to head when the linked list is instantiated. Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance. Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list. Define a method called print which takes in no arguments and outputs all of the current Node values in the Linked List.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+insert method Node O(n).
+includes O(n).
+toString O(n).
+
+## Solution
+<!-- Embedded whiteboard image -->
+ ![images](../assets/ll-kth-from-end.png)
+
+---
+
+
+# Zip
+<!-- Short summary or background information -->
+A LinkedList class and Node class. The LinkedList keeps track of what node is its head value, and each node contains its own value and a pointer to the node after it in the list.
+
+## Challenge Description
+<!-- Description of the challenge -->
+Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node. Within your LinkedList class, include a head property. Upon instantiation, an empty Linked List should be created. This object should be aware of a default empty value assigned to head when the linked list is instantiated. Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance. Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list. Define a method called print which takes in no arguments and outputs all of the current Node values in the Linked List.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+insert method Node O(1).
+includes O(n).
+toString O(n).
+
+## Solution
+<!-- Embedded whiteboard image -->
+ ![images](../assets/zipLists.png)
+
+---
+
+
 
 # Stacks and Queues
 <!-- Short summary or background information -->
@@ -72,7 +132,7 @@ Through online documentation on writing stacks and queues in Java from scratch. 
 
 ---
 ---
----
+--- 
 
 
 # Challenge Summary
