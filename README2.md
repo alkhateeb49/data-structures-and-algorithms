@@ -49,9 +49,9 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 ## 401 Java Table of Contents
 |Code Challenge|Documentation|Code & Files|
 |-|-|-|
-|array-reverse|[Documentation](challenges/README.md#challenge-summary-array-everse)|[Code & Files]()|
-|array-shift|[Documentation](challenges/README.md#challenge-summary-array-shift)|[Code & Files]()|
-|array-binary-search|[Documentation](challenges/README.md#challenge-summary-array-binary-search)|[Code & Files]()|
+|array-reverse|[Documentation](challenges/README.md#challenge-summary-array-reverse)|[Code & Files](challenges/main/ArrayReverse.java)|
+|array-shift|[Documentation](challenges/README.md#challenge-summary-array-shift)|[Code & Files](challenges/main/ArrayShift.java)|
+|array-binary-search|[Documentation](challenges/README.md#challenge-summary-array-binary-search)|[Code & Files](challenges/main/BinarySearch.java)|
 |linked-list|[Documentation]()|[Code & Files]()|
 |ll-insertions|[Documentation]()|[Code & Files]()|
 |ll-kth-from-end|[Documentation]()|[Code & Files]()|
