@@ -17,7 +17,7 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 # Table of Contents
 
-## JavaScript
+## JavaScript Table of Contents
 
 [JavaScript Code Challenge 1](https://github.com/alkhateeb49/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js)
 
@@ -44,27 +44,24 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 [JavaScript Code Challenge 12](https://github.com/alkhateeb49/data-structures-and-algorithms/blob/main/code-challenges/challenges-12.test.js)
 
 [JavaScript Code Challenge 13](https://github.com/alkhateeb49/data-structures-and-algorithms/blob/main/code-challenges/challenges-13.test.js)
+# 401 Data Structures, Code Challenges
 
-## Java
-[Java Code Challenge 1](challenges/main/ArrayReverse.java)
+## 401 Java Table of Contents
+|Code Challenge|Documentation|Code & Files|
+|-|-|-|
+|array-reverse|[Documentation](challenges/README.md#challenge-summary-array-reverse)|[Code & Files](challenges/main/ArrayReverse.java)|
+|array-shift|[Documentation](challenges/README.md#challenge-summary-array-shift)|[Code & Files](challenges/main/ArrayShift.java)|
+|array-binary-search|[Documentation](challenges/README.md#challenge-summary-array-binary-search)|[Code & Files](challenges/main/BinarySearch.java)|
+|linked-list|[Documentation](Data-Structures/README.md#singly-linked-list)|[Code & Files](Data-Structures/linkedList)|
+|ll-insertions|[Documentation](Data-Structures/README.md#insertions)|[Code & Files](Data-Structures/linkedList)|
+|ll-kth-from-end|[Documentation](Data-Structures/README.md#kth-from-end)|[Code & Files](Data-Structures/linkedList)|
+|ll-zip|[Documentation](Data-Structures/README.md#zip)|[Code & Files](Data-Structures/linkedList)|
 
-[Java Code Challenge 2](challenges/main/ArrayShift.java)<br/>
-[Java Code Challenge 2 test](challenges/test/ArrayShiftTest.java)
-
-[Java Code Challenge 3](challenges/main/BinarySearch.java)<br/>
-[Java Code Challenge 3 test](challenges/test/BinarySearchTest.java)
-
-[Java Code Challenge 4](Data-Structures/linkedList/LinkedList.java)<br/>
-[Java Code Challenge 4 test](Data-Structures/linkedList/LinkedListTest.java)
-
-[Java Code Challenge 5](Data-Structures/linkedList/LinkedList.java)<br/>
-[Java Code Challenge 5 test](Data-Structures/linkedList/LinkedListTest.java)
-
-[Java Code Challenge 6](Data-Structures/linkedList/LinkedList.java)<br/>
-[Java Code Challenge 6 test](Data-Structures/linkedList/LinkedListTest.java)
-
-[Java Code Challenge 7](Data-Structures/linkedList/LinkedList.java)<br/>
-[Java Code Challenge 7 test](Data-Structures/linkedList/LinkedListTest.java)
-
-[Java Code Challenge 8](Data-Structures/linkedList/LinkedList.java)<br/>
-[Java Code Challenge 8 test](Data-Structures/linkedList/LinkedListTest.java)
+|stack-and-queue|[Documentation](Data-Structures/README.md#stacks-and-queues)|[Code & Files](Data-Structures/stacksandqueues)|
+|queue-with-stacks|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/stacksandqueues)|
+|fifo-animal-shelter|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/utilities)|
+|multi-bracket-validation|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/utilities)|
+|tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
+|find-maximum-binary-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
+|breadth-first|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
+|fizzbuzz-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/StringTree)|
