@@ -33,16 +33,23 @@ free the space for the lesser value element to be inserted.
 
 ## Pseudocode
 ```
- InsertionSort(int[] arr)
-  
-    FOR i = 1 to arr.length
+ class InsertionSort
+    int[] array
     
-      int j <-- i - 1
-      int temp <-- arr[i]
-      
-      WHILE j >= 0 AND temp < arr[j]
-        arr[j + 1] <-- arr[j]
-        j <-- j - 1
+    InsertionSort()
+    
+    InsertionSort(int[] array)
+        this.array = array
         
-      arr[j + 1] <-- temp
+    Function int[] insertionSort() 
+        if (array == null) 
+            return array
+        for (int i = 1; i < array.length; i++) 
+            int j = i - 1
+            int temp = array[i]
+            while ((j >= 0) && (temp < array[j])) 
+                array[j + 1] = array[j]
+                j = j - 1
+            array[j + 1] = temp
+        return array
 ```
