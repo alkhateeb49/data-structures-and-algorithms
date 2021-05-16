@@ -64,3 +64,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |find-maximum-binary-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
 |breadth-first|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/tree)|
 |fizzbuzz-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/StringTree)|
+|Insertion Sort|[Documentation](Data-Structures/README.md#insertion-sort)|[Code & Files](Data-Structures/insertionSort)|
