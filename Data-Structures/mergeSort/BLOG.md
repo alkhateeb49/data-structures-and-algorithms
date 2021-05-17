@@ -17,7 +17,8 @@ Merge Sort is a divide and conquer algorithm, the problem set of ordering an arr
     * Cloud storage makes previous concerns of making every KB count are not practical any longer, and while space shouldn't be wasted, that space will be returned to the system as soon as the sort concludes.
     
 ## Diagram
-* ![Merge Sort Process](../images/mergeSort_Visual.png)
+* ![images](../../assets/merge.png)
+
 
 ## Algorithm
 * Step 1 − if it is only one element in the list it is already sorted, return.
