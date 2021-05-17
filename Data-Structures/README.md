@@ -307,3 +307,17 @@ Approach is to write out the regular fizzbuzz conditionals and provide a startin
 -  ![images](../assets/insertion.png)
 
 ---
+# Merge Sort
+## Challenge
+* Complete a working, tested implementation of Merge Sort, based on the pseudo code provided
+* Create a blog post on understanding the Merge Sort Algorithm suitable for a 301 level student. Alternately, prepare a presentation that presents the algorithm in a novel way. E.g. a short skit, live mini-lecture, interpretive dance.
+
+
+## Approach and Efficiency
+* I utilized the recursive method prescribed in the pseudo code and achieved the following efficiencies:
+    * Time Complexity: O(n log n)
+
+## Solution
+-  ![images](../assets/merge.png)
+
+---
