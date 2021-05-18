@@ -66,3 +66,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |fizzbuzz-tree|[Documentation](Data-Structures/README.md)|[Code & Files](Data-Structures/StringTree)|
 |Insertion Sort|[Documentation](Data-Structures/README.md#insertion-sort)|[Code & Files](Data-Structures/insertionSort)|
 |Merge Sort|[Documentation](Data-Structures/README.md#merge-sort)|[Code & Files](Data-Structures/mergeSort)|
+|Quick Sort|[Documentation](Data-Structures/README.md#quick-sort)|[Code & Files](Data-Structures/quickSort)|
