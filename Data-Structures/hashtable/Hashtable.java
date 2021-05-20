@@ -70,7 +70,6 @@ public class Hashtable {
 
 
     public String toString() {
-//        StringBuilder outputMessage = new StringBuilder();
         String message="";
 
         if (table == null) {
