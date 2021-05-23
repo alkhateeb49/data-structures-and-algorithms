@@ -68,3 +68,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |Merge Sort|[Documentation](Data-Structures/README.md#merge-sort)|[Code & Files](Data-Structures/mergeSort)|
 |Quick Sort|[Documentation](Data-Structures/README.md#quick-sort)|[Code & Files](Data-Structures/quickSort)|
 |Hash Tables|[Documentation](Data-Structures/README.md#hash-tables)|[Code & Files](Data-Structures/hashtable)|
+|Repeated Word|[Documentation](Data-Structures/README.md#repeated-word)|[Code & Files](Data-Structures/repeatedWord)|
