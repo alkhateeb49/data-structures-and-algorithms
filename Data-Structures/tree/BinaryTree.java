@@ -1,6 +1,11 @@
 package tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class BinaryTree{
     Node root;
@@ -103,11 +108,9 @@ public class BinaryTree{
         }
     }
 
+//    ---------------------------------------------------------
 
 
-    //    ---------------------------------------------------------
-
-    
     //      findMaximumValue
     public int findMaximumValue(){
         if(this.root== null){
@@ -115,6 +118,7 @@ public class BinaryTree{
         }
         return findMaximumValue(this.root, this.root.value);
     }
+
 
     public int findMaximumValue(Node node, int max){
         if(node== null){
@@ -133,32 +137,66 @@ public class BinaryTree{
     }
 
 
-        //    ---------------------------------------------------------
+
+    //    ---------------------------------------------------------
 
 
-        public List<Integer> breadthFirst(Node tree) {
-            List<Integer> newlist=new ArrayList<>();
-            Queue<Node> traversalQueue = new LinkedList<>();
-            if (tree== null) {
-                throw new NullPointerException("Empty");
-            }
-            else {
-                traversalQueue.add(tree);
-                newlist.add(tree.value);
-                while (!traversalQueue.isEmpty()) {
-                    Node currentNode = traversalQueue.poll();
-                    System.out.println(currentNode);
-                    if (currentNode.left != null) {
-                        traversalQueue.add(currentNode.left);
-                        newlist.add(currentNode.left.value);
-                    }
-                    if (currentNode.right != null) {
-                        traversalQueue.add(currentNode.right);
-                        newlist.add(currentNode.right.value);
-                    }
+    public List<Integer> breadthFirst(Node tree) {
+        List<Integer> newlist=new ArrayList<>();
+        Queue<Node> traversalQueue = new LinkedList<>();
+        if (tree== null) {
+            throw new NullPointerException("Empty");
+        }
+        else {
+            traversalQueue.add(tree);
+            newlist.add(tree.value);
+            while (!traversalQueue.isEmpty()) {
+                Node currentNode = traversalQueue.poll();
+                System.out.println(currentNode);
+                if (currentNode.left != null) {
+                    traversalQueue.add(currentNode.left);
+                    newlist.add(currentNode.left.value);
+                }
+                if (currentNode.right != null) {
+                    traversalQueue.add(currentNode.right);
+                    newlist.add(currentNode.right.value);
                 }
             }
-            return newlist;
         }
+        return newlist;
+    }
+    //    ---------------------------------------------------------
+
+    public int OddSum(){
+        return OddSum(this.root);
+    }
+    public int OddSum(Node root){
+        int sum=0;
+        if (root == null) {
+            return sum;
+        }
+        if (root.value%2!=0) {
+            sum+=root.value;
+        }
+        sum+=OddSum(root.right);
+        sum+=OddSum(root.left);
+        return sum;
+    }
+
+    //    TreeIntersection
+    public ArrayList<Integer> treeIntersection(BinaryTree first, BinaryTree second){
+        if(first.isEmpty() ||second.isEmpty()){
+            return new ArrayList<>();
+        }
+        ArrayList<Integer> treeInput1 = first.preOrder();
+        ArrayList<Integer> valueStore = new ArrayList<>();
+        for(Integer number : treeInput1){
+            if (second.contains(number)) {
+                valueStore.add(number);
+            }
+        }
+        return valueStore;
+    }
+
 
 }

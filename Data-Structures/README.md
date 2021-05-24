@@ -380,3 +380,19 @@ Find the first repeated word in a book.
 
 ---
 
+# Tree Intersection
+## Challenge
+Write a function called tree_intersection
+
+## Challenge Description
+Write a function called tree_intersection that takes two binary tree parameters.
+Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
+
+## Approach & Efficiency
+* Time Complexity: O(n^2)
+
+## Solution
+*  ![images](../assets/treeintersection.png)
+
+---
+
