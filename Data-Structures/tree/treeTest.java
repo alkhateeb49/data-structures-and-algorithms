@@ -1,8 +1,10 @@
 package tree;
+import Stringtree.FizzBuzzTree;
 import org.junit.Test;
 import utilities.MultiBracketValidation;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -57,9 +59,7 @@ public class treeTest {
         test.add(1);test.add(2);test.add(3);test.add(4);test.add(5);test.add(6);test.add(7);test.add(8);test.add(9);
         assertEquals("The tree is Equal",test,tree.inOrder());
     }
-
-
-    //---------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------
     @Test
     public void  findMaxOnTreeTest() {
         BinaryTree tree=new BinaryTree();
@@ -69,7 +69,7 @@ public class treeTest {
         tree.add(322);
         tree.add(31);
         tree.add(5);
-        assertEquals("The Max is : ",322,tree.findMaximumValue());
+        assertEquals("The tree is Equal",322,tree.findMaximumValue());
     }
 
     @Test(expected = NullPointerException.class)
@@ -85,8 +85,7 @@ public class treeTest {
         assertEquals("The tree is Equal",7,tree.findMaximumValue());
     }
 
-
-    //---------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------
 
     @Test
     public void  breadthFirstTest() {
@@ -121,7 +120,6 @@ public class treeTest {
         assertEquals("The tree is Equal",test,tree.breadthFirst(tree.root));
     }
 
-    
     //---------------------------------------------------------------------------------------
     @Test
     public void  fizzBuzzTreeTest() {
@@ -168,5 +166,43 @@ public class treeTest {
     }
 
 
+//      TreeIntersection
+
+    @Test
+    public void  treeIntersectionEmpty(){
+        BinaryTree testTree1 = new BinaryTree();
+        BinaryTree testTree2 = new BinaryTree();
+        BinaryTree testTree3 = new BinaryTree();
+        ArrayList<Integer> test = new ArrayList<>();
+
+        assertEquals("Should Return Empty List",test,testTree3.treeIntersection(testTree1,testTree2));
+    }
+
+    @Test
+    public void  treeIntersectionNoMatch(){
+        BinaryTree testTree1 = new BinaryTree();
+        testTree1.add(1);testTree1.add(2);
+        BinaryTree testTree2 = new BinaryTree();
+        testTree2.add(3);testTree2.add(4);
+
+        BinaryTree testTree3 = new BinaryTree();
+        ArrayList<Integer> test = new ArrayList<>();
+
+        assertEquals("Should Return Empty List",test,testTree3.treeIntersection(testTree1,testTree2));
+    }
+
+    @Test
+    public void  treeIntersectionRegular(){
+        BinaryTree testTree1 = new BinaryTree();
+        testTree1.add(1);testTree1.add(2);testTree1.add(3);testTree1.add(4);
+        BinaryTree testTree2 = new BinaryTree();
+        testTree2.add(6);testTree2.add(5);testTree2.add(3);testTree2.add(4);
+
+        BinaryTree testTree3 = new BinaryTree();
+        ArrayList<Integer> test = new ArrayList<>();
+        test.add(3);test.add(4);
+
+        assertEquals("Should Return Empty List",test,testTree3.treeIntersection(testTree1,testTree2));
+    }
 
 }
