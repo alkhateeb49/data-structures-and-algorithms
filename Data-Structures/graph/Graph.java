@@ -28,6 +28,23 @@ public class Graph <Type> {
         return node;
     }
 
+    public void addEdge(Vertex<Type> firstVertex, Vertex<Type> secondVertex, int weight) {
+        addDirEdge(firstVertex, secondVertex, weight);
+        addDirEdge(secondVertex, firstVertex, weight);
+    }
+
+    public void addDirEdge(Vertex<Type> firstVertex, Vertex<Type> secondVertex, int weight) {
+        List<Edge<Type>> edgeList = graphList.get(firstVertex);
+        if (edgeList == null) {
+            throw new IllegalArgumentException("Source vertex not in graph");
+        }
+        if (secondVertex == null) {
+            throw new IllegalArgumentException("Destination vertex not in graph");
+        }
+        Edge<Type> newEdge = new Edge<>(weight, secondVertex);
+        edgeList.add(newEdge);
+    }
+
     public ArrayList<Vertex<Type>> getNodes() {
         ArrayList<Vertex<Type>> vertices = new ArrayList<>();
         for(Map.Entry< Vertex<Type>, List<Edge<Type>>> vertex : graphList.entrySet()) {
