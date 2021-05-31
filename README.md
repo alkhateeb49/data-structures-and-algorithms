@@ -73,3 +73,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |Left Join|[Documentation](Data-Structures/README.md#left-join)|[Code & Files](Data-Structures/stringHashtable)|
 |Graph|[Documentation](Data-Structures/README.md#graph)|[Code & Files](Data-Structures/graph)|
 |Breadth First Graph|[Documentation](Data-Structures/README.md#breadth-first-graph)|[Code & Files](Data-Structures/graph)|
+|Get Edge Graph|[Documentation](Data-Structures/README.md#get-edge-graph)|[Code & Files](Data-Structures/graph)|
