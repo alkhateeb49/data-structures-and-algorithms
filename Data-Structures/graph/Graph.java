@@ -78,4 +78,41 @@ public class Graph <Type> {
         return Message;
     }
 
+
+
+
+
+// Depth-First
+
+
+
+    public List<Type> depthFirst(Vertex<Type> startNode) {
+        if (startNode == null) {
+            return null;
+        }
+
+        List<Vertex<Type>> visited = new ArrayList<>();
+        List<Type> newList = new ArrayList<>();
+        visited.add(startNode);
+        depthFirst(startNode, visited);
+        for(Vertex<Type> node : visited) {
+            newList.add(node.value);
+        }
+        return newList;
+    }
+
+    public List<Vertex<Type>> depthFirst(Vertex<Type> current, List<Vertex<Type>> visited) {
+        List<Edge<Type>> neighbors = this.getNeighbors(current);
+        for (Edge<Type> neighbor : neighbors) {
+            Vertex<Type> neighborNode = neighbor.vertex;
+            if (visited.contains(neighborNode)) {
+                continue;
+            }
+            else {
+                visited.add(neighborNode);
+            }
+            depthFirst(neighborNode, visited);
+        }
+        return visited;
+    }
 }
